@@ -191,7 +191,7 @@ function preload() {
   pinkHappy = loadImage('assets/Gezichten/Roze/Happy face.png');
   pinkSad = loadImage('assets/Gezichten/Roze/Sad face.png');
   pinkNeutral = loadImage('assets/Gezichten/Roze/Neutral face.png');
-  pinkSlightlySad = loadImage('assets/Gezichten/Roze/Pink Lightly Sad face.png');
+  pinkSlightlySad = loadImage('assets/Gezichten/Roze/Lightly Sad face.png');
   pinkDead = loadImage('assets/Gezichten/Roze/Dead face.png');
 
   //universal face
