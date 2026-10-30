@@ -160,70 +160,70 @@ let savedName;
 function preload() {
   //emotions
   //Yellow
-  yellowHappy = loadImage('../assets/Gezichten/Geel/Happy face.png');
-  yellowSad = loadImage('../assets/Gezichten/Geel//Sad face.png');
-  yellowNeutral = loadImage('../assets/Gezichten/Geel/Neutral face.png');
-  yellowSlightlySad = loadImage('../assets/Gezichten/Geel/Slightly Sad face.png');
-  yellowDead = loadImage('../assets/Gezichten/Geel/Dead face.png');
+  yellowHappy = loadImage('assets/Gezichten/Geel/Happy face.png');
+  yellowSad = loadImage('assets/Gezichten/Geel//Sad face.png');
+  yellowNeutral = loadImage('assets/Gezichten/Geel/Neutral face.png');
+  yellowSlightlySad = loadImage('assets/Gezichten/Geel/Slightly Sad face.png');
+  yellowDead = loadImage('assets/Gezichten/Geel/Dead face.png');
 
   //Blue
-  blueHappy = loadImage('../assets/Gezichten/Blauw/Happy face.png');
-  blueSad = loadImage('../assets/Gezichten/Blauw/Sad face.png');
-  blueNeutral = loadImage('../assets/Gezichten/Blauw/Neutral face.png');
-  blueSlightlySad = loadImage('../assets/Gezichten/Blauw/Blue Lightly Sad face.png');
-  blueDead = loadImage('../assets/Gezichten/Blauw/Dead face.png');
+  blueHappy = loadImage('assets/Gezichten/Blauw/Happy face.png');
+  blueSad = loadImage('assets/Gezichten/Blauw/Sad face.png');
+  blueNeutral = loadImage('assets/Gezichten/Blauw/Neutral face.png');
+  blueSlightlySad = loadImage('assets/Gezichten/Blauw/Blue Lightly Sad face.png');
+  blueDead = loadImage('assets/Gezichten/Blauw/Dead face.png');
 
   //Green
-  greenHappy = loadImage('../assets/Gezichten/Groen/Happy face.png');
-  greenSad = loadImage('../assets/Gezichten/Groen/Sad face.png');
-  greenNeutral = loadImage('../assets/Gezichten/Groen/Neutral face.png');
-  greenSlightlySad = loadImage('../assets/Gezichten/Groen/Green Lightly Sad face.png');
-  greenDead = loadImage('../assets/Gezichten/Groen/Dead face.png');
+  greenHappy = loadImage('assets/Gezichten/Groen/Happy face.png');
+  greenSad = loadImage('assets/Gezichten/Groen/Sad face.png');
+  greenNeutral = loadImage('assets/Gezichten/Groen/Neutral face.png');
+  greenSlightlySad = loadImage('assets/Gezichten/Groen/Green Lightly Sad face.png');
+  greenDead = loadImage('assets/Gezichten/Groen/Dead face.png');
 
   //Red
-  redHappy = loadImage('../assets/Gezichten/Rood/Happy face.png');
-  redSad = loadImage('../assets/Gezichten/Rood/Sad face.png');
-  redNeutral = loadImage('../assets/Gezichten/Rood/Neutral face.png');
-  redSlightlySad = loadImage('../assets/Gezichten/Rood/Red Lightly Sad face.png');
-  redDead = loadImage('../assets/Gezichten/Rood/Dead face.png');
+  redHappy = loadImage('assets/Gezichten/Rood/Happy face.png');
+  redSad = loadImage('assets/Gezichten/Rood/Sad face.png');
+  redNeutral = loadImage('assets/Gezichten/Rood/Neutral face.png');
+  redSlightlySad = loadImage('assets/Gezichten/Rood/Red Lightly Sad face.png');
+  redDead = loadImage('assets/Gezichten/Rood/Dead face.png');
 
   //Pink
-  pinkHappy = loadImage('../assets/Gezichten/Roze/Happy face.png');
-  pinkSad = loadImage('../assets/Gezichten/Roze/Sad face.png');
-  pinkNeutral = loadImage('../assets/Gezichten/Roze/Neutral face.png');
-  pinkSlightlySad = loadImage('../assets/Gezichten/Roze/Pink Lightly Sad face.png');
-  pinkDead = loadImage('../assets/Gezichten/Roze/Dead face.png');
+  pinkHappy = loadImage('assets/Gezichten/Roze/Happy face.png');
+  pinkSad = loadImage('assets/Gezichten/Roze/Sad face.png');
+  pinkNeutral = loadImage('assets/Gezichten/Roze/Neutral face.png');
+  pinkSlightlySad = loadImage('assets/Gezichten/Roze/Pink Lightly Sad face.png');
+  pinkDead = loadImage('assets/Gezichten/Roze/Dead face.png');
 
   //universal face
-  sick = loadImage('../assets//Gezichten/Algemene gezichten/Sick face.png');
+  sick = loadImage('assets//Gezichten/Algemene gezichten/Sick face.png');
 
 
   //backgrounds
-  baseBackground = loadImage('../assets/base_bg.jpeg');
-  gardenImg = loadImage('../assets/garden.png');
-  atticImg = loadImage('../assets/Attic.png');
-  gameRoomImg = loadImage('../assets/Gameroom.png');
+  baseBackground = loadImage('assets/base_bg.jpeg');
+  gardenImg = loadImage('assets/garden.png');
+  atticImg = loadImage('assets/Attic.png');
+  gameRoomImg = loadImage('assets/Gameroom.png');
 
   //Icons
-  heartIcon = loadImage('../assets/Health icon.png');
-  hungerIcon = loadImage('../assets/Hunger icon.png');
-  energyIcon = loadImage('../assets/EnergyIcon.png');
-  luckIcon = loadImage('../assets/Four leafe clover.png');
-  trashIcon = loadImage('../assets/garbagebag.png');
+  heartIcon = loadImage('assets/Health icon.png');
+  hungerIcon = loadImage('assets/Hunger icon.png');
+  energyIcon = loadImage('assets/EnergyIcon.png');
+  luckIcon = loadImage('assets/Four leafe clover.png');
+  trashIcon = loadImage('assets/garbagebag.png');
 
   //btn images
-  btn_Normal = loadImage('../assets/btn_Normal.png');
+  btn_Normal = loadImage('assets/btn_Normal.png');
 
   //music
-  bgMusic = loadSound('../assets/bg_sound.mp3');
-  musicHappinessSad = loadSound('../assets/happines 1-5.mp3');
-  musicHappinessSomber = loadSound('../assets/Happines 2-5.mp3');
-  musicHappinessMid = loadSound('../assets/Happines 3-5.mp3');
-  musicHappinessMidHappy = loadSound('../assets/Happines 4-5.mp3');
-  musicHappinessHappy = loadSound('../assets/Happines 5-5.mp3');
+  bgMusic = loadSound('assets/bg_sound.mp3');
+  musicHappinessSad = loadSound('assets/happines 1-5.mp3');
+  musicHappinessSomber = loadSound('assets/Happines 2-5.mp3');
+  musicHappinessMid = loadSound('assets/Happines 3-5.mp3');
+  musicHappinessMidHappy = loadSound('assets/Happines 4-5.mp3');
+  musicHappinessHappy = loadSound('assets/Happines 5-5.mp3');
 
   //font 
-  pixelFont = loadFont('../assets/PressStart2P-Regular.ttf');
+  pixelFont = loadFont('assets/PressStart2P-Regular.ttf');
 }
 
 
@@ -397,9 +397,9 @@ function draw() {
   //changing curser based on action
   UpdateStats();
   if (isFeeding) {
-    cursor('../assets/meatCursur.png', 16, 16);
+    cursor('assets/meatCursur.png', 16, 16);
   } else if (isPlaying) {
-    cursor('../assets/handcursur.png', 16, 16);
+    cursor('assets/handcursur.png', 16, 16);
   } else {
     cursor(ARROW);
   }
@@ -655,7 +655,7 @@ function btn_styles() {
 
   for (let btn of buttons) {
     btn.size(140, 50);
-    btn.style('background-image', "url('../assets/btn_Normal.png')");
+    btn.style('background-image', "url('assets/btn_Normal.png')");
     btn.style('background-size', 'contain');
     btn.style('background-repeat', 'no-repeat');
     btn.style('background-color', 'transparent');
@@ -671,7 +671,7 @@ function btn_styles() {
   let selectorsStyle = [bgChoice, colorChoice]
   for (let selector of selectorsStyle) {
     selector.size(150, 60);
-    selector.style('background-image', "url('../assets/btn_Normal.png')");
+    selector.style('background-image', "url('assets/btn_Normal.png')");
     selector.style('background-size', 'contain');
     selector.style('background-repeat', 'no-repeat');
     selector.style('background-color', 'transparent');
