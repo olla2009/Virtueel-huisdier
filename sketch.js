@@ -184,7 +184,7 @@ function preload() {
   redHappy = loadImage('assets/Gezichten/Rood/Happy face.png');
   redSad = loadImage('assets/Gezichten/Rood/Sad face.png');
   redNeutral = loadImage('assets/Gezichten/Rood/Neutral face.png');
-  redSlightlySad = loadImage('assets/Gezichten/Rood/Red Lightly Sad face.png');
+  redSlightlySad = loadImage('assets/Gezichten/Rood/Lightly Sad face.png');
   redDead = loadImage('assets/Gezichten/Rood/Dead face.png');
 
   //Pink
