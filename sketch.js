@@ -399,7 +399,7 @@ function draw() {
   if (isFeeding) {
     cursor('assets/meatCursur.png', 16, 16);
   } else if (isPlaying) {
-    cursor('assets/handcursur.png', 16, 16);
+    cursor('assets/handCursur.png', 16, 16);
   } else {
     cursor(ARROW);
   }
