@@ -676,12 +676,24 @@ function btn_styles() {
     selector.style('background-repeat', 'no-repeat');
     selector.style('background-color', 'transparent');
     selector.style('border', 'none');
+    selector.style('outline', 'none');
+    selector.style('box-shadow', 'none');
     selector.style('color', 'white');
+    selector.style('border-radius', '3px');
     selector.style('font-size', '12px');
     selector.style('font-family', 'PressStart2P-Regular');
-    selector.style('padding-left', '15px');
-    selector.style('padding-right', '15px');
+
+    selector.elt.addEventListener('focus', () => {
+      selector.style('background-color', 'blue');
+    });
+
+    selector.elt.addEventListener('blur', () => {
+      selector.style('background-color', 'transparent');
+    });
   }
+
+  colorChoice.style('padding-left', '15px');
+  colorChoice.style('padding-right', '15px');
 }
 
 
