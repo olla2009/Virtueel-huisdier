@@ -682,14 +682,6 @@ function btn_styles() {
     selector.style('border-radius', '3px');
     selector.style('font-size', '12px');
     selector.style('font-family', 'PressStart2P-Regular');
-
-    selector.elt.addEventListener('focus', () => {
-      selector.style('background-color', 'blue');
-    });
-
-    selector.elt.addEventListener('blur', () => {
-      selector.style('background-color', 'transparent');
-    });
   }
 
   colorChoice.style('padding-left', '15px');
